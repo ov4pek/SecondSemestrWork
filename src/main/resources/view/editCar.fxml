@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="229.0" prefWidth="426.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.kpfu.itis.ovchinnikov.controller.EditCarController">
+   <children>
+      <TextField fx:id="model" layoutX="14.0" layoutY="25.0" promptText="Model" />
+      <TextField fx:id="mileage" layoutX="14.0" layoutY="63.0" promptText="Miliage" />
+      <TextField fx:id="power" layoutX="14.0" layoutY="101.0" promptText="Power" />
+      <TextField fx:id="year" layoutX="14.0" layoutY="138.0" promptText="Year" />
+      <TextField fx:id="cost" layoutX="15.0" layoutY="175.0" promptText="Cost" />
+      <Button fx:id="saveCarBtn" layoutX="229.0" layoutY="25.0" mnemonicParsing="false" prefHeight="176.0" prefWidth="162.0" text="Add" onAction="#saveCar"/>
+   </children>
+</AnchorPane>

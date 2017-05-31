@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="202.0" prefWidth="405.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.kpfu.itis.ovchinnikov.controller.EditRentController">
+   <children>
+      <TextField fx:id="name" layoutX="14.0" layoutY="14.0" promptText="Name" />
+      <TextField fx:id="number" layoutX="14.0" layoutY="48.0" promptText="Number" />
+      <TextField fx:id="car" layoutX="14.0" layoutY="83.0" promptText="Car" />
+      <TextField fx:id="startDate" layoutX="14.0" layoutY="117.0" promptText="Rent Date" />
+      <TextField fx:id="returnDate" layoutX="14.0" layoutY="153.0" promptText="Return Date" />
+      <Button fx:id="saverentBtn" layoutX="208.0" layoutY="14.0" mnemonicParsing="false" prefHeight="164.0" prefWidth="171.0" text="Submit" onAction="#saveRent"/>
+   </children>
+</AnchorPane>
